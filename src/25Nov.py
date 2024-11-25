@@ -1,5 +1,6 @@
 
-def binary_search(input_arr, target_number):
+def binary_search(input_arr: list[int], target_number: int) -> int | None:
+    input_arr.sort()
     low = 0
     high = len(input_arr) - 1
     while low <= high:
