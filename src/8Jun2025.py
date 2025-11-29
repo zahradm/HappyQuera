@@ -1,6 +1,3 @@
-from unicodedata import digit
-
-
 class Solution(object):
     def addTwoNumbers(self, l1: list[int], l2: list[int]) -> list[int]:
         """
@@ -15,4 +12,4 @@ class Solution(object):
         return list(map(int, str(final_digit)[::-1]))
 
 
-print(Solution().addTwoNumbers([9,9,9,9,9,9,9], [9,9,9,9]))
+print(Solution().addTwoNumbers([9, 9, 9, 9, 9, 9, 9], [9, 9, 9, 9]))
